@@ -31,7 +31,7 @@ btn.addEventListener('click', () => {
     console.log(output)
 })
 
-const url = 'https://github.com/Fabian295/cart/blob/main/data.json'
+const URL = 'https://github.com/Fabian295/cart/blob/main/data.json';
 
 fetch(URL, {
     method: 'GET',
