@@ -1,0 +1,73 @@
+body {
+    font-family: 'Kalnia', serif;
+    max-height: 100dvh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prime__navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.prime__navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.site__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.content {
+    grid-column: 1 ;
+    grid-row: 2;
+    padding: 10rem 1.5rem 4rem;
+}
+h1 {
+    grid-column: 1 / -1;
+    grid-row-start: 1;
+    text-align: center;
+}
+
+ .graphic {
+    grid-column:  2;
+    grid-row: 2;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.block {
+    border: 1px solid lime;
+    display: block;
+    padding: 1rem;
+    margin: 0;
+    border-radius: .5rem;
+    /* width: 5rem; */
+    /* height: 10rem; */
+}
+
+ .one {
+    grid-column: 9 ;
+    grid-row: 5;
+}
+ .two {
+    grid-column: 10 ;
+    grid-row: 5;
+}
+.three {
+    grid-column: 8 ;
+    grid-row: 6;
+}
+.four {
+    grid-column: 9 ;
+    grid-row: 6;
+}
