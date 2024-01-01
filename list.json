@@ -1,0 +1,45 @@
+
+[
+    {
+      "id": 1,
+      "title": "Apple",
+      "desc":"Fugit dolorum consequatur rem molestiae, possimus dignissimos!",
+      "img": "red-apple.jpg",
+      "price": 0.25
+    },
+    {
+      "id": 2,
+      "title": "Banana",
+      "desc":"Fugit dolorum consequatur rem molestiae, possimus dignissimos!",
+      "img": "banana.jpg",
+      "price": 0.90
+    },
+    {
+      "id": 3,
+      "title": "Cherry",
+      "desc":"Fugit dolorum consequatur rem molestiae, possimus dignissimos!",
+      "img": "cherries.jpg",
+      "price": 0.20
+    },
+    {
+      "id": 4,
+      "title": "Melon",
+      "desc":"Fugit dolorum consequatur rem molestiae, possimus dignissimos!",
+      "img": "melon.png",
+      "price": 3.50
+    },
+    {
+      "id": 5,
+      "title": "Kiwi",
+      "desc":"Fugit dolorum consequatur rem molestiae, possimus dignissimos!",
+      "img": "kiwi.jpg",
+      "price": 0.75
+    },
+    {
+      "id": 6,
+      "title": "Strawberry",
+      "desc":"Fugit dolorum consequatur rem molestiae, possimus dignissimos!",
+      "img": "strawberry.jpg",
+      "price": 0.45
+    }
+  ]
