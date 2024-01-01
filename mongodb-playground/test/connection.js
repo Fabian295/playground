@@ -15,4 +15,11 @@ mongoose.connection.once('open', () => {
 })
 
 
-// 
+// Drop ( delete ) the characters collection with each test
+beforeEach((done) => {
+    // Drop the collection
+    mongoose.connection.collections.mariochars.drop(() => {
+
+        done();
+    });
+})
