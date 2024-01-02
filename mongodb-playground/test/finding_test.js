@@ -5,11 +5,12 @@ const MarioChar  = require('../models/mariochar')
 
 // Describe the tests
 describe('Finding records', function() {
+    let char;
     
     //Add a character to the db before each test
     beforeEach((done) => {
 
-    const char = new MarioChar({
+    char = new MarioChar({
         name: 'Mario'
     });
     char.save()
@@ -23,8 +24,21 @@ describe('Finding records', function() {
             .then((result) => {
                 assert(result.name === 'Mario');
                 done();
-            })
+        })
 
     })
 
+
+    //Find one record /character by ID
+    it('Finds a record from the database', function(done) {
+    
+        MarioChar.findOne({ _id: char._id })
+            .then(result => {
+                assert(result._id.toString() === char._id.toString());
+                done()
+        })
+    
+    })
+
 })
+
