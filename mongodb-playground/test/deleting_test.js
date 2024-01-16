@@ -15,7 +15,8 @@ describe('Deleting records', function(){
   // Add a character to the db before each tests
   beforeEach(function(done){
     char = new MarioChar({
-      name: 'Mario'
+      name: 'Mario',
+      weight: 50
     });
     char.save().then(function(){
         console.log(char)

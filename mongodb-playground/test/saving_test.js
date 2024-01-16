@@ -10,7 +10,8 @@ describe('Saving records', function() {
     it('Saving a record to the database', function(done) {
         
         let char = new MarioChar({
-            name: 'Mario'
+            name: 'Mario',
+            weight: 50
         });
 
         char.save()

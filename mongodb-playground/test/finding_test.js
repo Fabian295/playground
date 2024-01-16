@@ -6,12 +6,13 @@ const MarioChar  = require('../models/mariochar')
 // Describe the tests
 describe('Finding records', function() {
     let char;
-    
+
     //Add a character to the db before each test
     beforeEach((done) => {
 
     char = new MarioChar({
-        name: 'Mario'
+        name: 'Mario',
+        weight: 50
     });
     char.save()
         .then(() => done());
